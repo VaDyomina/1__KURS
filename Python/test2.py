@@ -44,5 +44,8 @@ with open('vocab.txt', "r", encoding = "utf-8") as f:
     lines = text.split('\n')
 for i in range(len(words)):
     k = 0
-if words[i].count[' | '] == 2 
+if words[i].count[' | '] == 2:
+    word,gr,count_ipm = word[i].split(' | ')
+    if words[i] == word.strip(' ')
+    
      
