@@ -31,7 +31,7 @@ for i in range(len(f)):
     print(f[i] + ',')
 print(ipm)
 
-#3
+#3   не дописала 
 k = 0
 words = []
 word = input()
@@ -44,5 +44,5 @@ with open('vocab.txt', "r", encoding = "utf-8") as f:
     lines = text.split('\n')
 for i in range(len(words)):
     k = 0
-
+if words[i].count[' | '] == 2 
      
