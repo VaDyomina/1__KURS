@@ -1,0 +1,32 @@
+s = 'I love programming' 
+len(s)
+18
+def  = сейчас буду создавать ф-ию 
+1) Функция-определитель простого числа
+def prime (number): 
+    return number= 1) возвращает р-т рабоы ф-ии 
+                   2) все, что после, - комментарий 
+divs = range(2,number)
+for d in divs:
+    if number % d == 0:
+       return False
+return true 
+
+for i in range (2,100): 
+     if prime(i):
+        print(i)
+        
+ 2) MAX 
+ def maximum (a,b):
+     if a > b: 
+         return a 
+     elif b > a: 
+          return b 
+     else: 
+          return a , b
+          
+def maximum (*<когда мы не знаем, сколько чисел> a): 
+
+
+3) Open 
+open('freq.txt', 'r', encoding ='utf-8') 
