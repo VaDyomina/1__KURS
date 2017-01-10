@@ -44,7 +44,6 @@ def verb():
     v = v[0:len(v)-1]
     return v
 
-
 def imperative_verb():
     imp_verbs = []
     with open('imp_verbs.txt','r', encoding = 'utf-8') as f: 
