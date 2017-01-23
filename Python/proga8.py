@@ -62,5 +62,4 @@ def welcoming():
         print("__________________________")
         playing(words())
             
-
 welcoming()
