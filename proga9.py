@@ -6,7 +6,7 @@ def reading(name):
     f.close()
     return words
 
-def deliting(words):
+def deleting(words):
     for i, word in enumerate(words) :
         words[i] = word.lower().strip('.,/1234567890@#$%^&*><~`|\}{][!?():;-_=+"\'')
     return words
@@ -17,7 +17,7 @@ def printing(words):
             print(word)
 
 def main():
-    words = deliting(reading(input('Введите название файла:\n')))
+    words = deleting(reading(input('Введите название файла:\n')))
     printing(words)
 
 
