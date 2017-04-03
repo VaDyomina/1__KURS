@@ -1,0 +1,45 @@
+Comprehensions и фильтры
+a = [1, 2, 3, 4, 5, 6, 7, 8] 
+     In[11]: b = [ ]
+             for i in a:
+             b.append(i ** 2)
+out[11] :              
+             
+in[16] : [4, 16, 64]
+in[17]: new_b = [i ** 2 for i in a if i < 10 and i % 2 == 0]
+        new_b
+out[17]: [4,16, 64]
+
+in [19]: words += ['Kate', 'Tom', 'Moses', 'Jesus']
+         words 
+Out[19]: ['Mary', 'John', 'Jake', 'Tim', 'Kate', 'Tom', 
+             
+ Dict Comprehension 
+ In [ 22 ]: d = ("корова": "му", "собака":"гав", "кот": "мяу", "утка": "кря")
+ In[23]: sounds = (d[key] : key
+ 
+ Массив массивов 
+ In [25]: BIG = [a,new_b, words]
+          BIG
+ In[26]: flat = [ item for arr in BIG for item in arr]
+         flat
+ In[28]: flat = [item for arr in BIG for item in arr]
+         flat
+         
+  Форматирование строк 
+  In [30 ]: s = 'Hello, world! That's all folks!'
+  
+  In [31]: s.uppert( ) #все делает капсом 
+  In [32]: s.lower ( ) 
+  In[34]: s.title( )
+  In[36]: 
+  
+   In [ ] : arr =[21, 45, 100, 4, 4, 3, 87]
+            template = 'Возраст: (: > 10 )'
+            for i in arr:
+                print(template.format (i) ) 
+   In [52 ]: '(:+>10)'. format('text')
+   Out[52]: '++++++text'
+   
+   In [58]: '(:
+                
